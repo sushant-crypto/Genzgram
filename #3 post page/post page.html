@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genzgram - Post Page</title>
+    <link rel="stylesheet" href="post_page.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Container -->
+    <div class="container">
+        <!-- Create Post Section -->
+        <div class="create-post">
+            <h2>Create a New Post</h2>
+            <form action="#">
+                <!-- Image Upload -->
+                <div class="input-box">
+                    <input type="file" accept="image/*" required>
+                    <i class='bx bx-upload'></i>
+                </div>
+                <!-- Caption Input -->
+                <div class="input-box">
+                    <input type="text" placeholder="Write a caption..." required>
+                    <i class='bx bxs-pencil'></i>
+                </div>
+                <!-- Submit Button -->
+                <button type="submit" class="btn">Post</button>
+            </form>
+        </div>
+        <!-- Posts Feed Section -->
+        <div class="posts-feed">
+            <h2>Posts Feed</h2>
+            <!-- Example Post -->
+            <div class="post">
+                <img src="example.jpg" alt="Post Image">
+                <p class="caption">This is an example caption for a post.</p>
+            </div>
+            <!-- Additional posts can be added here -->
+        </div>
+    </div>
+</body>
+</html>

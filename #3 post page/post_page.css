@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b, #ff6f61, #6A0572);
+    animation: gradient 15s ease infinite;
+    background-size: 300% 300%;
+}
+
+.container {
+    width: 800px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.create-post {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.create-post h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    margin: 20px 0;
+}
+
+.input-box input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    background: #f9f9f9;
+    outline: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.input-box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    background: #f9f9f9;
+    outline: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.input-box i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    transition: 0.3s;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(90deg, #6c5ce7, #8e44ad);
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #8e44ad, #6c5ce7);
+}
+
+.posts-feed {
+    padding: 20px;
+}
+
+.posts-feed h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post .caption {
+    margin-top: 10px;
+    color: #666;
+    text-align: center;
+}
